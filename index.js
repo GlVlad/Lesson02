@@ -88,7 +88,7 @@ let Student = {
     array[10] = 'Савельич';
     array[11] = 'с утра';
     array[12] = 'отправился по лавкам';
-    const result = [array];
+    const result = array;
     for(i = 0; i <= 12; i++){
         console.log(result[i])
     }
