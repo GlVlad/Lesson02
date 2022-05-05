@@ -75,7 +75,6 @@ let Student = {
         'Савельич'
     ]
     const order = [3, 7, 0, 8, 11, 5, 9, 6, 4, 1, 12, 2, 10]
-    const strings = order.reduce((strings, number) => [...strings, array[number]], [])
     const result = order.map((i) => array[i]).join(' ');
     console.log(result);
 /* 
