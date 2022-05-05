@@ -74,9 +74,25 @@ let Student = {
         'пробыть сутки',
         'Савельич'
     ]
-    const order = [3, 7, 0, 8, 11, 5, 9, 6, 4, 1, 12, 2, 10]
-    const result = order.map((i) => array[i]).join(' ');
-    console.log(result);
+
+    array[0] = 'В ту же ночь';
+    array[1] = 'приехал';
+    array[2] = 'я в Симбирск,';
+    array[3] = 'где должен был';
+    array[4] = 'пробыть сутки';
+    array[5] = 'для закупки';
+    array[6] = 'нужных вещей';
+    array[7] = 'что и было поручено Савельичу.';
+    array[8] = 'Я остановился';
+    array[9] = 'в трактире.';
+    array[10] = 'Савельич';
+    array[11] = 'с утра';
+    array[12] = 'отправился по лавкам';
+    const result = [array];
+    for(i = 0; i <= 12; i++){
+        console.log(result[i])
+    }
+
 /* 
     Задание 4:
 
